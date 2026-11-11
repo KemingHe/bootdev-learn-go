@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/KemingHe/bootdev-learn-go/mystrings"
+)
 
 func main() {
-	fmt.Println("hello world")
+	fmt.Println(mystrings.Reverse("hello world"))
 }
